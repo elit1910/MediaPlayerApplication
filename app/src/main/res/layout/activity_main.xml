@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.mediaplayerapplication.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Abba">
+
+    <TextView
+        android:id="@+id/Abba"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="@string/Abba"
+        android:textSize="35dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Bach">
+
+
+    <TextView
+        android:id="@+id/Bach"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="@string/Bach"
+        android:textSize="35dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Beatles">
+    <TextView
+        android:id="@+id/Beatles"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="@string/Beatles"
+        android:textSize="35dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/BildF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
